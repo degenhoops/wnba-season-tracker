@@ -1,0 +1,288 @@
+[
+  {
+    "name": "Minnesota Lynx",
+    "abbr": "MIN Lynx",
+    "slug": "minnesota-lynx",
+    "pts": 86.1,
+    "stats": {
+      "off_rtg": 109.5,
+      "def_rtg": 97.5,
+      "net_rtg": 12.1,
+      "ast_pct": 72.6,
+      "reb_pct": 49.9,
+      "tov_pct": 16.5,
+      "efg_pct": 54.2,
+      "opp_pts": 78.8
+    },
+    "notes": {
+      "profile": "Minnesota’s identity centers on half‑court execution, spacing, and disciplined help defense. The attack flows through a multipronged star who pressures the lane and collapses coverage, which keeps assist creation high and shot quality stable. They operate comfortably in the mid to high tempo band, using quick-hitting pistol and 5‑out wrinkles to generate threes for their shooters and slips for active bigs. On defense, their shell is compact and connected, tagging rollers early and closing with two on the catch rather than over‑helping. Their rebounding is built on gang principles, not one star, which limits second chances without sacrificing transition balance. Season‑long patterns show consistent scoring efficiency paired with controlled turnover rates, a profile that travels well across venues. The net result is a team that rarely beats itself and tends to impose structure on chaotic games.",
+      "strengths": "Shooting gravity at both guard spots stretches the floor, which raises effective field goal percentage on catch‑and‑shoot looks. The primary forward’s rim pressure and post seals draw help, creating easy dump‑offs and cut layups that stabilize offense when perimeter shots cool. Screening craft is a weapon, with guards changing angles to free shooters and punish top‑locking. The defense communicates early on cross‑matches, so opponents do not find easy transition threes. Late‑clock composure is a hallmark, with reliable two‑action counters that convert contested possessions into decent looks. They protect the defensive glass with positional box‑outs, which keeps opponents off the line and out of rhythm. Free throw discipline holds up across officiating crews, supporting narrow‑margin wins. Their bench delivers mistake‑light minutes that maintain spacing and defensive principles.",
+      "weaknesses": "Physical frontcourts that pound the paint can tilt the battle toward post fouls and short‑roll kickouts. Switch‑heavy opponents who stay home on shooters can flatten their off‑ball actions and force tougher self‑creation. When ball pressure pushes catches farther from the arc, entry angles worsen and timing drifts, which lowers rim efficiency. Opponents that weaponize offensive rebounding can create multiple‑effort sequences that stress their closeout rules. They can be susceptible to jumbo wings who punish size mismatches on the block and shoot over contests. Stagnant possessions appear when screening connectivity slips, reducing the secondary side’s involvement. Zone looks that disguise matchups for a few trips can disrupt rhythm until they flash cutters through the nail with purpose.",
+      "betting": "Games tend to settle into organized half‑court possessions, which lowers volatility relative to run‑and‑gun opponents. Unders gain value when facing teams that also prioritize set defense and limit transition frequency. Sides are attractive when opponents lack reliable post scoring, since Minnesota’s first‑shot defense is sturdy and foul avoidance is consistent. Team‑total overs can show value against switching defenses that concede slips and back cuts, particularly when whistle environments reward rim attacks. Player props for secondary shooters improve when opponents hard‑show the primary creator, generating clean catch‑and‑shoot volume. Avoid chasing extremes after hot three‑point nights, since their shot diet is balanced and regression follows quickly. In playoff‑style environments, their execution edge and turnover control often translate into late‑game cover potential."
+    }
+  },
+  {
+    "name": "Los Angeles Sparks",
+    "abbr": "LA Sparks",
+    "slug": "los-angeles-sparks",
+    "pts": 85.7,
+    "stats": {
+      "off_rtg": 105.2,
+      "def_rtg": 108.5,
+      "net_rtg": -3.3,
+      "ast_pct": 67.5,
+      "reb_pct": 49.7,
+      "tov_pct": 18.4,
+      "efg_pct": 52.1,
+      "opp_pts": 85.6
+    },
+    "notes": {
+      "profile": "Los Angeles leans on a dual‑threat forward who runs the floor, punishes switches, and creates from the elbows. Their guards toggle between on‑ball creation and movement shooting, which keeps help assignments uncertain. Offense favors early offense into organized half‑court actions that slice the lane for cutters and short‑roll playmaking. Defensively, they seek deflections, then turn live‑ball turnovers into quick points. The rotation features size at multiple spots, allowing them to contest without constant double teams. Their offensive identity blends paint pressure with timely spacing, producing steady free throws and quality looks. Over the season, they have shown the ability to win both high‑tempo exchanges and grindier possessions.",
+      "strengths": "Transition scoring is a clear edge, sparked by active hands and quick outlets. The primary forward’s conditioning creates deep seals and early fouls on opposing bigs. Movement shooters punish late switches by curling into catch‑and‑shoot windows. They can switch across several positions without hemorrhaging on the glass. Short‑roll reads produce layups and corner threes against aggressive pick‑and‑roll coverage. Bench wings add slashing that forces second‑side rotations and collapses the lane. Free throw creation stabilizes scoring in physical games. Their best lineups blend length and skill, which travel well across arenas.",
+      "weaknesses": "When perimeter accuracy dips, spacing compresses and turnovers creep up on drives. Opponents that win the defensive glass can blunt their transition edge. Switch‑heavy teams that sit on curls may force midrange bailouts late in the clock. Post doubles that come on the catch can disrupt elbow actions until counters re‑establish timing. Zones that pack the paint reduce cutting lanes and demand consistent outside shooting. Foul trouble for the primary forward changes rebounding and rim pressure dynamics. High‑volume pick‑and‑pop bigs can pull their help from the lane and open back cuts.",
+      "betting": "Totals skew higher in matchups with turnover‑prone opponents, since live‑ball steals feed their transition game. Team‑total overs gain value against show or trap coverages that yield short‑roll assists and corner threes. Sides improve versus teams with limited defensive rebounding, as second chances and early offense build margins. Unders can have value against elite glass teams that force them into the half‑court without extra possessions. Player props for the primary forward rise against smaller frontcourts and whistle‑friendly crews. Three‑point props for movement shooters pop when opponents over‑help on elbow touches. In tight spreads, beware foul trouble risk that can flatten their two‑way ceiling."
+    }
+  },
+  {
+    "name": "Indiana Fever",
+    "abbr": "IND Fever",
+    "slug": "indiana-fever",
+    "pts": 84.9,
+    "stats": {
+      "off_rtg": 106.2,
+      "def_rtg": 101.8,
+      "net_rtg": 4.5,
+      "ast_pct": 65.7,
+      "reb_pct": 50.5,
+      "tov_pct": 17.5,
+      "efg_pct": 51.7,
+      "opp_pts": 80.9
+    },
+    "notes": {
+      "profile": "Indiana’s offense blends a dynamic lead guard who stretches the floor with a skilled interior anchor who screens, seals, and finishes. They prioritize early actions that pull bigs into space, then attack downhill for drives or post seals. Ball movement is crisp, often flowing from pick‑and‑roll into second‑side handoffs that yield corner threes. Defensively, they improve when the shell stays compact and the glass is protected by gang rebounding. Their profile is resilient because it marries spacing with rim pressure and free throws. Role players fit cleanly around the stars, giving the attack multiple release valves. Across venues, their efficiency holds when turnover control and defensive rebounding meet baseline standards.",
+      "strengths": "Lead‑guard gravity warps coverage, opening pocket passes and skip reads. The interior star converts deep catches and short‑rolls at high rates, drawing help and fouls. Spot‑up shooters thrive on inside‑out passes, raising effective field goal percentage. Transition spacing is disciplined, producing trailer threes and rim runs. Defensively, they close possessions with better positioning as the season progresses. Late‑clock poise improves because they can play through either star. Bench guards keep creation alive without spiking turnovers. Their free throw profile adds a safety net to cold shooting nights.",
+      "weaknesses": "Switch‑heavy defenses that stay home can force tougher isolations and midrange attempts. Strong offensive rebounders can tilt possessions and expose rotation seams. When spacing cools, entry angles shrink and turnovers rise. Zones that choke the nail slow drive‑and‑kick flow until counters arrive. Physical point‑of‑attack pressure can push actions late into the clock. Stretch bigs can pull rim protection away from primary help zones. Foul trouble for the interior anchor changes defensive rebounding and paint efficiency dynamics.",
+      "betting": "Team‑total overs appear against drop coverage, since pull‑ups and pocket passes flow naturally. Sides improve versus opponents with light defensive rebounding, as second chances emerge from strong seals. Unders gain value against no‑help switching schemes that turn games into isolation and free throw control. Lead‑guard assist props rise when opponents hard‑show or trap ball screens. Three‑point props for spot‑ups pop versus paint‑collapsing defenses. Avoid chasing one hot perimeter game, since the baseline comes from rim pressure and free throws. In tight spreads, their dual‑threat creation supports late covers when whistle environments are neutral."
+    }
+  },
+  {
+    "name": "Atlanta Dream",
+    "abbr": "ATL Dream",
+    "slug": "atlanta-dream",
+    "pts": 84.4,
+    "stats": {
+      "off_rtg": 108.2,
+      "def_rtg": 98.9,
+      "net_rtg": 9.3,
+      "ast_pct": 71.2,
+      "reb_pct": 53.0,
+      "tov_pct": 16.1,
+      "efg_pct": 51.4,
+      "opp_pts": 73.8
+    },
+    "notes": {
+      "profile": "Atlanta’s blueprint blends downhill guard play with a sturdy interior finisher who anchors the paint. They like early actions that put pressure on the rim, then spray to capable spot‑up shooters who punish late help. Defensively, Atlanta uses length on the perimeter to shrink driving angles and competes on the glass with physicality. The team identity leans on effort and connectivity, not variance, which produces a dependable floor. They adjust to opponent pace without losing structure, a sign of mature shot selection and transition discipline. Their stars attract attention, but role players thrive because the ball moves decisively to the next advantage. Throughout the season, their profile shows repeatable efficiency, travel‑proof defense, and reliable late‑game composure.",
+      "strengths": "Perimeter size allows them to contest without fouling and still finish possessions. Primary guards generate paint touches that create high‑value corner threes. An interior hub screens with force, rolls hard, and cleans the defensive glass. Secondary creators handle pressure and keep assist rates healthy. Transition defense communicates early, removing easy opponent points. Late‑clock execution features simple two‑player actions that reduce turnovers. Their free throw discipline sustains scoring in physical games. Bench wings bring energy and cutting that maintain spacing standards.",
+      "weaknesses": "Elite post offenses that draw double teams can bend their help and open weak‑side threes. Switch‑and‑stay defenses may force a higher share of contested midrange shots. If defensive rebounding slips, second chances undermine otherwise strong half‑court defense. Zones that pinch the elbows slow drive‑and‑kick flow until counters arrive. Hot‑shooting opponents can pull them into track meets that blur defensive assignments. When ball pressure pushes catches out, entry angles degrade and turnovers rise. Foul trouble for the primary big changes rebound control and rim deterrence.",
+      "betting": "Unders gain value when facing methodical opponents because Atlanta limits transition and fouling. Sides improve versus teams with light offensive rebounding, since one‑and‑done possessions fit their profile. Team‑total overs appear against deep drop coverage that concedes pull‑ups and pocket passes. Prop overs for guards rise when opponents bring late nail help, creating drive‑and‑kick assists and free throws. Three‑point props for wings pop versus heavy paint collapses. Avoid anchoring to one hot shooting night, since their baseline comes from rim pressure and defense. In tight spreads, their foul discipline and rebounding control often decide covers."
+    }
+  },
+  {
+    "name": "New York Liberty",
+    "abbr": "NY Liberty",
+    "slug": "new-york-liberty",
+    "pts": 84.4,
+    "stats": {
+      "off_rtg": 105.8,
+      "def_rtg": 100.6,
+      "net_rtg": 5.2,
+      "ast_pct": 73.7,
+      "reb_pct": 48.5,
+      "tov_pct": 17.3,
+      "efg_pct": 52.6,
+      "opp_pts": 76.0
+    },
+    "notes": {
+      "profile": "New York combines elite shooting gravity with a two‑big ecosystem that screens, slips, and protects the rim. Offense flows from five‑out spacing, dribble handoffs, and quick slips that punish aggressive coverage. The primary creators bend defenses with range and passing, turning routine touches into high‑value corner looks. Defensively, length on the perimeter and a mobile back line funnel drivers into contested pull‑ups. They control tempo by limiting live‑ball turnovers and setting the defense early. The profile is sustainable because it leans on structure, shooting, and rim protection rather than streakiness alone. Their best lineups stretch the floor without sacrificing interior defense.",
+      "strengths": "Movement shooting forces chase coverage that opens slips and back‑cuts. A skilled center secures the glass and finishes efficiently on deep catches. Secondary creators are comfortable attacking tilted closeouts and making the extra pass. Defensive communication closes to the body without fouling, shrinking clean looks. They win the math by producing more threes and free throws than opponents in many game states. Late‑clock, they find quality pull‑ups or post touches instead of turnovers. Bench units maintain spacing, keeping help defenders honest. Their transition defense removes opponent corner threes quickly.",
+      "weaknesses": "Physical switch defenses that top‑lock can disrupt handoff timing. When threes cool, possessions can drift toward contested pull‑ups. Elite post offenses can draw doubles and challenge rotation integrity on the weak side. Strong offensive rebounders can steal extra shots and change totals. Zones that show high hands can slow their touch‑points until counters re‑establish flow. Turnover spikes occur when passes are floated over pressure rather than driven through windows. Opponents with multiple stretch bigs can pull rim protection into uncomfortable areas.",
+      "betting": "Team‑total overs appear against drop or soft show coverage that gives shooters daylight. Sides improve versus teams that cannot both chase movement and protect the rim. Unders gain traction when facing switch‑heavy, no‑help defenses that take away catch‑and‑shoot volume. Assist props for primary creators rise against aggressive hedges that open short‑roll passing. Three‑point props pop for role shooters when opponents collapse the paint. Avoid overreacting to one cold arc night, because their process continues to generate quality looks. In playoff‑style games, their turnover control and rim defense support cover chances."
+    }
+  },
+  {
+    "name": "Las Vegas Aces",
+    "abbr": "LV Aces",
+    "slug": "las-vegas-aces",
+    "pts": 83.6,
+    "stats": {
+      "off_rtg": 105.9,
+      "def_rtg": 101.9,
+      "net_rtg": 3.9,
+      "ast_pct": 66.0,
+      "reb_pct": 48.4,
+      "tov_pct": 16.5,
+      "efg_pct": 50.6,
+      "opp_pts": 74.7
+    },
+    "notes": {
+      "profile": "Las Vegas plays through a dominant two‑way anchor who bends the floor vertically and horizontally. Their offense marries early post position with spread pick‑and‑roll, letting the star draw doubles while guards hunt pull‑ups and slot drives. Spacing comes from shooters who relocate with craft, so help defenders must choose between tag responsibilities and corner discipline. Defensively, they build a wall at the nail, trusting length on the back line to erase mistakes and finish possessions with strong box‑outs. Pace is purposeful rather than reckless, prioritizing early seals and drag screens before the defense gets set. The profile is resilient, since free throws, paint touches, and second‑chance denial produce repeatable efficiency. Opponents rarely dictate style for long, because the star’s usage reliably resets the game plan to their strengths.",
+      "strengths": "Rim protection and deterrence change shot selection, forcing opponents into midrange concessions. The primary scorer draws fouls at an elite rate, which stabilizes offense and creates foul pressure rotations. Guard play features mature pick‑and‑roll reads that punish both drop and show coverage with pocket passes and slot skip throws. Transition defense is organized, with early communication to take away corner threes and hit‑ahead layups. Late‑game offense is simple and ruthless, using empty‑side actions that isolate the matchup advantage without turnovers. Their screening physicality creates clean separation for shooters who can fire off movement or attack tilted closeouts. Defensively, they stunt from the strong side without over‑committing, then recover with two to the ball only when necessary. Bench lineups keep a shooter on the floor at almost all times, maintaining gravity in second units.",
+      "weaknesses": "Lineups that lack a true spacer at the four can compress driving lanes and invite extra digs. Switch‑and‑scram defenses that crowd the post, then rebound as a unit, can reduce paint efficiency and free throw volume. Opponents who run multiple bigs to the glass may steal extra possessions and nudge totals upward. Physical point‑of‑attack pressure can push actions late into the clock, where contested jumpers rise. When rotations tighten, shot creation may skew too star‑centric, making the offense easier to load up against. Strong slip teams that short‑roll to playmaking bigs can force the back line into rotation chains. Zone looks that show high hands on the star’s catches can slow entry timing for a few trips.",
+      "betting": "Sides gain value when opponents lack rim volume or foul generation, because Las Vegas suppresses easy points and controls whistle tempo. Totals lean lower against structured defenses that also get set quickly, since transition remains limited. Team‑total overs appear when facing heavy drop coverage, as pull‑up guards and trail threes punish backpedaling bigs. Prop overs for the star scorer are repeatable in matchups with thin frontcourts or foul‑prone bigs. Three‑point props for complementary guards rise when opponents send hard post doubles that create clean kickouts. Avoid reaction to one cold perimeter night, since their free throw and paint diet props up baseline scoring. In elimination‑style games, their late‑clock shot quality and defensive floor often translate to cover resilience."
+    }
+  },
+  {
+    "name": "Phoenix Mercury",
+    "abbr": "PHX Mercury",
+    "slug": "phoenix-mercury",
+    "pts": 82.8,
+    "stats": {
+      "off_rtg": 103.6,
+      "def_rtg": 100.4,
+      "net_rtg": 3.2,
+      "ast_pct": 70.4,
+      "reb_pct": 49.6,
+      "tov_pct": 16.9,
+      "efg_pct": 50.2,
+      "opp_pts": 80.1
+    },
+    "notes": {
+      "profile": "Phoenix blends a high‑usage facilitator with downhill wings who attack gaps and finish through contact. Their shape alternates between five‑out spacing and two‑big looks, which keeps help assignments uncertain. The ball moves decisively through the elbows, leveraging strong cutters and back screens to create layups and corner threes. Defense emphasizes physicality on the first catch and early digs at the nail, then trusts length to contest late. The roster features multiple players who can initiate actions, so creation burden is diversified across lineups. Free throw generation and paint touches anchor efficiency when jump shots ebb. The overall profile is balanced, with enough size to defend on the glass and enough skill to punish over‑help.",
+      "strengths": "A point‑forward engine manufactures assists from short‑rolls and elbow touches, raising team shot quality. Wings run the lanes hard, which creates early cross‑matches and open threes for trail shooters. Secondary creators can run pick‑and‑roll against switches, slipping to the pocket and finding weak‑side cutters. The defense bodies drivers without frequent reaching, keeping opponents off the stripe. Corner three accuracy holds up because they generate inside‑out looks rather than off‑the‑dribble heaves. Lineups can toggle between power and pace, letting them adapt to opponent personnel. Late‑game sets feature simple split actions that free the primary scorer to either post or face up without traps. Rebounding is collective, limiting long runs against them.",
+      "weaknesses": "Switch‑suffocating defenses that stay home on shooters can force tougher isolations and midrange reliance. When spacing compresses, turnover risk rises on pocket passes and baseline drives. Opponents with multiple stretch bigs can pull rim protection away from the paint and open back cuts. Rotational fouls pile up when ball containment slips at the point of attack. Zone looks that take away elbow entries can stall the offense for several trips. Defensive communication can be tested by heavy weak‑side screening and Spain pick‑and‑roll variations. If early offense dries up, they can drift into static possessions that rely on contested jumpers.",
+      "betting": "Totals lean higher against teams that push pace and concede corner threes, since Phoenix converts inside‑out looks efficiently. Team‑total overs have value when opponents use hard shows or traps, because the short‑roll playmaker creates high‑value shots. Sides improve in matchups where opponents lack stretch size, allowing Phoenix to control rebounding and maintain rim presence. Prop overs for the facilitator spike versus drop coverage that yields elbow touches and easy assists. Three‑point props for wings rise against nail‑helping defenses that abandon corners. Unders gain traction against switch‑heavy, no‑help teams that shrink isolations and slow free throw volume. In playoff‑style games, their ability to score from the stripe supports cover chances in tight spreads."
+    }
+  },
+  {
+    "name": "Seattle Storm",
+    "abbr": "SEA Storm",
+    "slug": "seattle-storm",
+    "pts": 82.1,
+    "stats": {
+      "off_rtg": 103.0,
+      "def_rtg": 100.1,
+      "net_rtg": 2.9,
+      "ast_pct": 68.5,
+      "reb_pct": 46.9,
+      "tov_pct": 15.4,
+      "efg_pct": 50.5,
+      "opp_pts": 80.6
+    },
+    "notes": {
+      "profile": "Seattle’s blueprint pairs point‑guard orchestration with a veteran scoring wing and a versatile frontcourt defender. Offensively, they attack with slot pick‑and‑roll into empty‑side actions, then flow to second‑side dribble handoffs that create middle drives. The frontcourt plays above the rim in timing and angles, not just size, which produces efficient finishes and kickout threes. Defensively, they prioritize rim protection and late switches, trusting a mobile anchor to erase mistakes. Transition is opportunistic, used to create advantages but never at the expense of floor balance. Their style scales across venues because foul discipline and defensive glass hold steady. The overall profile thrives on decision making, not variance, which cuts off prolonged droughts.",
+      "strengths": "Point‑of‑attack defense disrupts rhythm dribbles and forces tough entries. The rim protector’s timing deters layups and encourages floaters, which lowers opponent efficiency. Wing scorers are comfortable against both drop and switch, using screens to create mid‑range windows and drive‑and‑kick opportunities. Off‑ball screening produces clean looks for shooters who thrive on movement. Their transition defense communicates early, removing corner threes from opponent shot diets. Late‑game they leverage simple two‑player games, reducing turnover risk. Rebounding positioning is sound, with guards cracking down to finish possessions. They manage foul totals, maintaining rotation integrity deep into fourth quarters.",
+      "weaknesses": "Heavy offensive rebounding teams can create second‑chance threes that stress their closeout rules. When spacing tightens, they can drift into pull‑up reliance that swings outcomes. Physical switch defenses that top‑lock shooters can flatten their motion packages. Zones that take away middle touches can slow decision speed until cutters flash to the nail. Opponents with multiple creators can draw the rim protector away from primary help zones. If the bench lacks shooting in a given matchup, half‑court spacing suffers and assist chances drop. Pace spikes from opponents may force them into more scramble possessions than they prefer.",
+      "betting": "Unders gain traction against opponents that also emphasize half‑court execution, since both teams limit transition frequency. Seattle sides improve versus teams without stretch bigs, because the rim protector stays home and efficiency climbs. Team‑total overs appear when opponents play deep drop and concede pull‑ups to confident guards. Secondary‑scorer props can pop when opponents trap the primary handler, since catch‑and‑shoot volume rises. Avoid overreacting to one poor three‑point night, because their shot quality remains stable and free throws provide a floor. In tight spreads, their turnover control and foul discipline often secure late covers. Against heavy offensive rebounding opponents, totals can tick upward due to extra possessions."
+    }
+  },
+  {
+    "name": "Dallas Wings",
+    "abbr": "DAL Wing",
+    "slug": "dallas-wings",
+    "pts": 81.7,
+    "stats": {
+      "off_rtg": 101.6,
+      "def_rtg": 109.1,
+      "net_rtg": -7.5,
+      "ast_pct": 66.9,
+      "reb_pct": 51.2,
+      "tov_pct": 17.2,
+      "efg_pct": 46.9,
+      "opp_pts": 92.0
+    },
+    "notes": {
+      "profile": "Dallas pairs a high‑volume shot creator with a versatile scoring guard who can run offense or finish as a cutter. Their pace oscillates, but the offense is most coherent when it flows from drive‑and‑kick into paint touches and free throws. The frontcourt supplies physical screening and opportunistic offensive rebounding, which keeps possessions alive. Defensively, they mix coverages to protect the paint, then rely on length to contest without over‑fouling. Variability comes from perimeter accuracy and turnover control, which drive their ceiling and floor. When the ball moves side to side, they manufacture high‑value corner threes and slips at the rim. The profile is dangerous against scrambling defenses that lose shooters in rotation.",
+      "strengths": "Primary creation soaks up difficult attempts, allowing teammates to attack tilted closeouts. Guards can score at all three levels, which lifts late‑clock outcomes. Offensive rebounding adds extra chances, especially from weak‑side crashes. They can punish drop coverage with pull‑ups and short‑roll reads. The bench brings energy and downhill force, changing tempo without sacrificing size. Defensive length produces blocks and deflections that disrupt rhythm. When threes fall at league‑average rates, their spacing unlocks paint efficiency. Free throw reliability supports scoring stability in choppy games.",
+      "weaknesses": "Turnover spikes appear when drives meet early help and counters do not arrive on time. Opponents that switch and stay home on shooters can force isolations and contested twos. Defensive rebounding lapses extend opponent runs and inflate totals. Fouls accumulate when point‑of‑attack containment slips, granting easy points at the stripe. Zones that seal the elbows can stall their flow until cutters punish the middle. Hot‑shooting opponents can outpace them if transition defense is late. Inconsistent bench shooting can compress spacing in second units.",
+      "betting": "Overs gain value against teams with weak defensive glass, since second chances raise possession counts and efficiency. Sides improve versus drop coverage that yields pull‑ups and pocket passes for their creators. Team‑total overs can appear when whistle environments reward rim pressure. Unders have merit against switch‑heavy, no‑help defenses that turn games into half‑court isolations. Player‑prop overs for the lead guard spike when opponents chase over screens and concede drive lanes. Three‑point props for wings pop versus nail‑helping defenses that abandon corners. Avoid chasing extremes after a hot rebounding night, since opponent scheme and pace heavily dictate volatility."
+    }
+  },
+  {
+    "name": "Golden State Valkyries",
+    "abbr": "GS Valkyries",
+    "slug": "golden-state-valkyries",
+    "pts": 77.7,
+    "stats": {
+      "off_rtg": 101.5,
+      "def_rtg": 99.8,
+      "net_rtg": 1.7,
+      "ast_pct": 69.8,
+      "reb_pct": 51.1,
+      "tov_pct": 18.5,
+      "efg_pct": 48.2,
+      "opp_pts": 74.7
+    },
+    "notes": {
+      "profile": "Golden State’s expansion profile is built on defensive connectivity, ball movement, and lineup flexibility. They emphasize point‑of‑attack pressure with help that arrives on time, then they push opportunistically without compromising floor balance. Offensively, they hunt second‑side actions, using Spain and zoom concepts to free shooters and generate slips at the rim. The roster features multiple wings with size who can screen, pass, and stretch the floor, which keeps the paint open. Their defensive fundamentals show in closeouts that arrive under control and in gang rebounding that limits second chances. The team’s identity is sustainable because it depends on structure and decision making, not streaky shot making. As chemistry deepens, timing on cuts and spacing reads continue to sharpen.",
+      "strengths": "Point‑of‑attack defense turns ball screens sideways and forces resets late in the clock. Help rotations are crisp, producing contested jumpers rather than fouls. Offensively, they generate corner threes from purposeful cutting and empty‑side pick‑and‑roll. Secondary playmakers keep the ball ahead of the defense, which raises assist rates and effective field goal percentage. Lineups with twin wings switch across actions without giving up deep position. Bench guards inject pace and penetration that create drive‑and‑kick volume. They value the ball, limiting live‑ball turnovers that feed opponent runs. Their free throw defense, via limited fouling, flattens opponent scoring.",
+      "weaknesses": "Physical post units can carve space inside and draw help that compromises corner coverage. When movement shooting cools, they may drift into late‑clock bailouts. Elite offensive rebounders can tilt possession counts and generate back‑breaking threes. Switch‑heavy defenses that top‑lock can disrupt timing until counters introduce slips and reject screens. Zones that pinch the elbows reduce their cutting windows and mid‑post touches. If bench shooting is cold, spacing compresses for second units. Teams with dual creators can force their help into longer rotation chains.",
+      "betting": "Unders gain traction in matchups against half‑court purists, since Golden State limits transition and fouling. Sides improve versus teams without post gravity, because they can stay home on shooters and finish possessions. Team‑total overs appear when opponents show at the level on ball screens, yielding short‑roll playmaking and corner threes. Prop overs for secondary playmakers pop against drop coverage that concedes pull‑ups and kickouts. Three‑point props for wings rise when opponents bring late nail help. Avoid overreacting to one cold night, since their shot quality remains strong and turnover control stabilizes totals. In tight spreads, their defensive floor and late‑game organization support covers."
+    }
+  },
+  {
+    "name": "Washington Mystics",
+    "abbr": "WAS Mystics",
+    "slug": "washington-mystics",
+    "pts": 77.1,
+    "stats": {
+      "off_rtg": 97.2,
+      "def_rtg": 103.2,
+      "net_rtg": -6.0,
+      "ast_pct": 68.8,
+      "reb_pct": 51.0,
+      "tov_pct": 19.2,
+      "efg_pct": 48.3,
+      "opp_pts": 83.5
+    },
+    "notes": {
+      "profile": "Washington’s framework emphasizes ball security, cutting, and a defense that competes on the glass. Offensively, they rely on multi‑guard actions that generate middle drives and kickouts, avoiding stagnant isolations. A young frontcourt adds energy on both backboards and provides rim runs that collapse coverage. Defensively, they aim to body drivers without fouling, then close to shooters under control. Their pace is measured, which reduces volatility and keeps games in the half‑court. As roles stabilize, the spacing and timing improve, lifting assist rates. The profile travels because it is based on habits and decision making rather than hot shooting alone.",
+      "strengths": "Turnover rates are manageable, allowing them to set the defense often. Guards cut with intent, creating layups and interior touches from simple actions. The frontcourt rebounds above size through positioning and effort. They contest jumpers without over‑helping, which limits opponent corner threes. Free throw avoidance lowers opponent efficiency in close games. Bench guards bring on‑ball defense that disrupts rhythm. Late‑game execution leans on simple dribble handoffs and two‑player games that protect the ball. Communication on switches reduces back‑cut damage.",
+      "weaknesses": "Elite isolation scorers can create tough shots without turnovers, stressing their scheme. When perimeter shooting cools, defenses can sink into gaps and clog drives. Stretch bigs that force long closeouts open the lane for slips and cuts. Opponents who dominate the offensive glass extend possessions and increase foul exposure. Zones that take away nail touches can flatten their motion until counters arrive. If early offense stalls, they can drift into contested midrange attempts. Multiple‑creator teams can trigger long rotations that test their weak‑side discipline.",
+      "betting": "Unders gain traction in matchups with other half‑court teams that limit transition. Sides improve versus opponents that rely on free throws, since Washington avoids fouls reliably. Team‑total overs appear when opponents play high at the level, creating short‑roll layups and kickouts. Guard assist props rise against drop coverage that invites pocket passes. Three‑point props have value when opponents pack the paint and abandon corners. Avoid anchoring to one hot opponent shooting night, since their defense generally controls shot quality. In tight spreads, their turnover control and defensive glass can swing covers late."
+    }
+  },
+  {
+    "name": "Connecticut Sun",
+    "abbr": "CON Sun",
+    "slug": "connecticut-sun",
+    "pts": 75.8,
+    "stats": {
+      "off_rtg": 95.9,
+      "def_rtg": 108.8,
+      "net_rtg": -12.9,
+      "ast_pct": 63.0,
+      "reb_pct": 47.5,
+      "tov_pct": 17.7,
+      "efg_pct": 45.8,
+      "opp_pts": 85.0
+    },
+    "notes": {
+      "profile": "Connecticut’s identity is rooted in physicality, half‑court organization, and interior creation. They run through strong‑hand post touches and elbow actions that punish switches and early help. Guards play with pace control, keeping turnovers low while feeding cutters and screeners. Defense emphasizes bodying drivers, tagging rollers early, and closing under control. Their rebounding is steady, built on technique and commitment rather than gambling. When threes fall at an average clip, the interior core supplies a consistent efficiency floor. The profile is durable across travel and opponent styles because it begins with structure at both ends.",
+      "strengths": "Interior scoring stabilizes offense and draws doubles that create clean kickouts. Elbow hubs are excellent passers, lifting assist rates without risky passes. They defend without fouling, which limits opponent free throws and late‑game variance. Box‑outs are textbook, keeping second chances to a minimum. Late‑clock sets find reliable mid‑post looks that avoid empty trips. Transition defense is organized, protecting corners and the rim. Versatile forwards switch comfortably and still contest at the arc. Their composure shows in low live‑ball turnover counts.",
+      "weaknesses": "Stretch lineups that pull their bigs to the perimeter can open back cuts. Zones that choke the paint force reliance on perimeter accuracy. Opponents with multiple initiators may bend help and create rotation chains that test closeouts. Transition‑heavy teams can strike before the shell is set. If whistles go against them, interior touches become more difficult and offensive rhythm suffers. When spacing cools, the floor shrinks and pass windows tighten. Elite offensive rebounders can neutralize their glass edge.",
+      "betting": "Unders gain traction against opponents that also value half‑court possessions and low foul rates. Sides improve versus teams that cannot guard the post without sending doubles. Team‑total overs appear when opponents over‑help on the block, yielding inside‑out threes and cuts. Prop overs for passing forwards pop against aggressive digs that open assist lanes. Avoid overreacting to cold perimeter nights, since their interior diet is stable. Against pace teams, totals can climb due to transition opportunities on both sides. In tight spreads, their turnover control and free throw discipline support covers."
+    }
+  },
+  {
+    "name": "Chicago Sky",
+    "abbr": "CHI Sky",
+    "slug": "chicago-sky",
+    "pts": 75.8,
+    "stats": {
+      "off_rtg": 97.0,
+      "def_rtg": 109.9,
+      "net_rtg": -12.8,
+      "ast_pct": 68.9,
+      "reb_pct": 52.7,
+      "tov_pct": 21.7,
+      "efg_pct": 47.6,
+      "opp_pts": 84.4
+    },
+    "notes": {
+      "profile": "Chicago builds around relentless rebounding, a powerful slashing forward, and a developing interior duo. Their offense works best when drives touch the paint and the ball sprays to spot‑ups or duck‑ins. The frontcourt supplies second‑chance creation, which keeps scoring afloat in cold stretches. Defensively, they contest without over‑helping, then finish possessions with size. Turnover control and perimeter accuracy determine ceiling from night to night. As the young core matures, timing on cuts and two‑player actions improves, giving them more reliable half‑court answers. The overall profile is physical and persistent, uncomfortable for opponents that prefer finesse games.",
+      "strengths": "Elite rebounding, particularly on the offensive glass, extends possessions and creates free points. The power wing draws contact and lives at the line, stabilizing scoring. Guards cut with purpose, producing layups from weak‑side actions. The defense stays home on shooters, shrinking the paint without gifting corner threes. They run the floor hard after blocks and long rebounds, manufacturing easy buckets. Interior size alters opponent shot selection near the rim. Bench units bring activity on the glass and defense that travels. Their foul pressure can shift whistle environments in their favor.",
+      "weaknesses": "Spacing can compress when multiple non‑shooters share the floor, tightening driving lanes. Turnovers spike when passes are late against crowding help. Opponents that punish the defensive glass blunt their second‑chance edge. Zones that wall off the elbows can slow paint touches and force jumpers. Switch‑heavy defenses reduce cutting effectiveness and invite isolations. Stretch bigs can pull their rim protection away from the basket. Free throw variance can swing outcomes when whistles are inconsistent.",
+      "betting": "Totals can creep upward versus weak rebounding teams due to second‑chance volume. Sides improve against opponents that foul frequently, since Chicago converts at the stripe and controls tempo. Team‑total overs have value when facing drop coverage that concedes pull‑ups and pocket passes to rolling bigs. Unders gain traction against elite defensive rebounders who limit extra possessions. Prop overs for the power wing rise versus smaller fronts and whistle‑friendly crews. Three‑point props for spot‑up guards pop when opponents pack the paint. Beware chasing rebounds after an extreme performance, since opponent box‑outs and scheme can quickly normalize rates."
+    }
+  }
+]

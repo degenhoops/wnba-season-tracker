@@ -1,0 +1,285 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8"/>
+<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+<title>WNBA Season Tracker</title>
+<meta name="description" content="WNBA dashboard with team stats, quarter-by-quarter scoring, and comparison tools."/>
+
+<!-- Fonts -->
+<link rel="preconnect" href="https://fonts.googleapis.com" crossorigin>
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Rajdhani:wght@600;700;800;900&display=swap" rel="stylesheet"/>
+
+<!-- Preload critical resources -->
+<link rel="preload" href="fullseason.json" as="fetch" crossorigin>
+<link rel="preload" href="lastfive.json" as="fetch" crossorigin>
+
+<!-- Styles and Scripts -->
+<link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" rel="stylesheet"/>
+<link rel="stylesheet" href="style.css"/>
+<script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/html2canvas/1.4.1/html2canvas.min.js"></script>
+</head>
+
+<body class="splash-lock">
+    <!-- Mobile/Tablet Splash Screen -->
+    <div id="splash" role="dialog" aria-live="polite" aria-label="Loading dashboard" tabindex="-1">
+        <div class="badge" role="group" aria-label="Degen Hoops launch badge">
+            <!-- Animated SVG Icon -->
+            <svg class="splash-svg" viewBox="0 0 220 220" role="img" aria-label="Launch animation">
+                <defs>
+                    <linearGradient id="goldGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+                        <stop offset="0%" stop-color="#FFD700" />
+                        <stop offset="100%" stop-color="#FFA500" />
+                    </linearGradient>
+                    <radialGradient id="screen" cx="50%" cy="40%" r="70%">
+                        <stop offset="0%" stop-color="#2d2d30" />
+                        <stop offset="70%" stop-color="#1a1a1c" />
+                        <stop offset="100%" stop-color="#111113" />
+                    </radialGradient>
+                </defs>
+
+                <circle cx="110" cy="110" r="95" fill="none" stroke="url(#goldGrad)" stroke-opacity="0.10" stroke-width="2" />
+                <g class="phone">
+                    <ellipse cx="112" cy="185" rx="35" ry="8" fill="#000" opacity="0.30"/>
+                    <rect x="72" y="45" width="76" height="130" rx="12" fill="none" stroke="url(#goldGrad)" stroke-width="3.5"/>
+                    <rect x="77" y="55" width="66" height="110" rx="8" fill="url(#screen)" stroke="rgba(255,198,46,0.05)" stroke-width="1"/>
+                    <rect x="95" y="60" width="30" height="3" rx="1.5" fill="#FFC62E" opacity="0.35"/>
+                    <circle cx="110" cy="67" r="2" fill="#333" opacity="0.6"/>
+                    <circle cx="110" cy="155" r="4" fill="none" stroke="#FFC62E" stroke-width="1.5" opacity="0.45"/>
+                    <rect x="69" y="80" width="3" height="12" rx="1.5" fill="#404042"/>
+                    <rect x="69" y="96" width="3" height="12" rx="1.5" fill="#404042"/>
+                    <rect x="148" y="85" width="3" height="18" rx="1.5" fill="#404042"/>
+                    <rect x="105" y="167" width="10" height="2" rx="1" fill="#333" opacity="0.4"/>
+                    <g class="arrow-spin">
+                        <circle cx="110" cy="110" r="22" fill="none" stroke="url(#goldGrad)" stroke-width="2.5" stroke-linecap="round" stroke-opacity="0.65" stroke-dasharray="80 25"/>
+                        <g transform="translate(132, 110)">
+                            <path d="M 0 0 l -8 -4 l 0 2.5 l -4 0 l 0 3 l 4 0 l 0 2.5 Z" fill="#FFC62E" opacity="0.85"/>
+                        </g>
+                    </g>
+                </g>
+            </svg>
+
+            <div class="badge-title">DEGEN&nbsp;HOOPS</div>
+            <div class="badge-sub">Loading Dashboard…</div>
+            <div class="badge-hint">
+                <i class="fas fa-mobile-alt" style="margin-right: 6px; transform: rotate(90deg);"></i>
+                Rotate device for optimal experience.
+            </div>
+        </div>
+    </div>
+
+    <!-- Header -->
+    <header class="header">
+        <a href="https://www.degenhoops.com/">
+            <img src="logo.png" alt="Degen Hoops Logo" class="logo" loading="lazy" />
+        </a>
+        <div class="header-content">
+            <h1>WNBA 2025 SEASON TRACKER</h1>
+            <div class="subtitle">Professional analytics dashboard for WNBA performance tracking.</div>
+            <a href="https://www.rotowire.com/wnba/lineups.php" target="_blank" rel="noopener noreferrer" class="lineup-badge">Lineup Tracker</a>
+            <a href="https://x.com/underdogwnba" target="_blank" rel="noopener noreferrer" class="lineup-badge">Underdog WNBA</a>
+            <div id="status" class="status loading">
+                <i class="fas fa-sync-alt"></i>
+                <span>Initializing dashboard...</span>
+            </div>
+        </div>
+    </header>
+
+    <!-- Controls -->
+    <section class="controls">
+        <div class="search-container">
+            <input type="text" id="searchInput" class="search-input" placeholder="Search teams statistics..." aria-label="Search dashboard data" autocomplete="off" />
+            <i class="fas fa-search search-icon" aria-hidden="true"></i>
+        </div>
+
+        <div class="button-grid">
+            <button class="btn" id="exportCsvBtn" aria-label="Export data as CSV">
+                <i class="fas fa-file-csv"></i> Export CSV
+            </button>
+            <button class="btn" id="exportImageBtn" aria-label="Export table as image">
+                <i class="fas fa-camera"></i> Export PNG
+            </button>
+            <button class="btn" id="datasetToggle" aria-label="Switch dataset">
+                <i class="fas fa-exchange-alt"></i>
+                <span id="datasetLabel">Full Season</span>
+            </button>
+            <button class="btn" id="shareBtn" aria-label="Share dashboard">
+                <i class="fas fa-share-alt"></i> Share
+            </button>
+        </div>
+    </section>
+
+    <!-- Team Comparison Section -->
+    <section class="comparison-section">
+        <h3>Team Comparison</h3>
+        <div class="comparison-controls">
+            <div class="team-select-group">
+                <label for="teamA">Team A</label>
+                <select id="teamA" class="team-select">
+                    <option value="">Select Team A</option>
+                </select>
+            </div>
+            <div class="team-select-group">
+                <label for="teamB">Team B</label>
+                <select id="teamB" class="team-select">
+                    <option value="">Select Team B</option>
+                </select>
+            </div>
+            <button class="btn" id="compareBtn">
+                <i class="fas fa-chart-bar"></i> Compare Teams
+            </button>
+        </div>
+        <div id="comparisonResults" class="compare-results"></div>
+    </section>
+
+    <!-- Data Table -->
+    <section class="table-container">
+        <div class="table-wrapper">
+            <table id="dataTable" class="data-table" role="table" aria-label="WNBA team statistics">
+                <thead id="tableHead"></thead>
+                <tbody id="tableBody"></tbody>
+            </table>
+        </div>
+    </section>
+
+    <!-- Charts -->
+    <section class="chart-section">
+        <div class="chart-controls">
+            <button class="btn active" data-chart="quarters">Quarter Performance</button>
+            <button class="btn" data-chart="trends">Performance Trends</button>
+        </div>
+        <div class="chart-container">
+            <canvas id="mainChart" aria-label="Performance visualization chart"></canvas>
+        </div>
+    </section>
+
+    <!-- Share Modal -->
+    <div id="shareModal" class="modal">
+        <div class="modal-content">
+            <button class="modal-close" aria-label="Close modal">
+                <i class="fas fa-times"></i>
+            </button>
+
+            <div class="modal-header">
+                <h3><i class="fas fa-share-alt"></i> Share Dashboard</h3>
+                <p>Share this WNBA analytics dashboard</p>
+            </div>
+            
+            <div class="share-url-container">
+                <div class="share-url-wrapper">
+                    <input type="text" id="shareUrl" readonly placeholder="Generating share URL..." aria-label="Share URL" />
+                    <button class="btn" id="copyUrlBtn">
+                        <i class="fas fa-copy"></i> Copy
+                    </button>
+                </div>
+            </div>
+
+            <div class="social-buttons">
+                <button class="social-btn" id="shareTwitterBtn">
+                    <i class="fab fa-twitter"></i> Twitter
+                </button>
+                <button class="social-btn" id="shareFacebookBtn">
+                    <i class="fab fa-facebook"></i> Facebook
+                </button>
+            </div>
+        </div>
+    </div>
+
+    <!-- Notification -->
+    <div id="notification" class="notification">
+        <i class="fas fa-check-circle"></i>
+        <span id="notificationText">Action completed successfully!</span>
+    </div>
+
+    <!-- App Script -->
+    <script src="app.js"></script>
+    <script src="radar-enhance.js"></script>
+
+    <!-- Mobile Splash Screen Logic -->
+    <script>
+    (function () {
+        const splash = document.getElementById('splash');
+        const body = document.body;
+
+        if (!splash) {
+            body.classList.remove('splash-lock');
+            return;
+        }
+
+        // Mobile/tablet detection for screens ≤ 1024px
+        const isMobileOrTablet = window.matchMedia('(max-width: 1024px)').matches;
+
+        if (!isMobileOrTablet) {
+            // Desktop: remove splash immediately
+            if (splash.parentNode) splash.remove();
+            body.classList.remove('splash-lock');
+            const header = document.querySelector('.header');
+            if (header) header.style.display = 'flex';
+            return;
+        }
+
+        // Mobile/Tablet: Show splash with minimum duration
+        const MIN_SPLASH_MS = 2400;
+        body.classList.add('splash-lock');
+        
+        const header = document.querySelector('.header');
+        if (header) header.style.display = 'none';
+        
+        const startTime = performance.now();
+
+        function hideSplash() {
+            const elapsed = performance.now() - startTime;
+            const remainingTime = Math.max(0, MIN_SPLASH_MS - elapsed);
+            
+            setTimeout(() => {
+                splash.classList.add('fade-out');
+                splash.setAttribute('aria-hidden', 'true');
+                
+                if (header) header.style.display = 'flex';
+                
+                splash.addEventListener('transitionend', () => {
+                    if (splash.parentNode) {
+                        splash.remove();
+                        body.classList.remove('splash-lock');
+                    }
+                }, { once: true });
+                
+                // Backup removal
+                setTimeout(() => {
+                    if (splash.parentNode) {
+                        splash.remove();
+                        body.classList.remove('splash-lock');
+                    }
+                    if (header) header.style.display = 'flex';
+                }, 600);
+            }, remainingTime);
+        }
+
+        if (document.readyState === 'complete') {
+            hideSplash();
+        } else {
+            window.addEventListener('load', hideSplash, { once: true });
+        }
+
+        // Failsafe - force removal after 8 seconds
+        setTimeout(() => {
+            if (document.body.contains(splash)) {
+                hideSplash();
+            }
+        }, 8000);
+
+        // Handle orientation changes
+        window.addEventListener('orientationchange', () => {
+            setTimeout(() => {
+                const isStillMobile = window.matchMedia('(max-width: 1024px)').matches;
+                if (!isStillMobile && document.body.contains(splash)) {
+                    hideSplash();
+                }
+            }, 100);
+        });
+    })();
+    </script>
+</body>
+</html>
