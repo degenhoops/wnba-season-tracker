@@ -28,7 +28,7 @@ A professional analytics dashboard for tracking WNBA team performance with inter
 
 1. **Download or clone this repository**
    ```bash
-   git clone https://github.com/yourusername/wnba-dashboard.git
+   git clone https://github.com/degenhoops/wnba-season-tracker.git
    cd wnba-dashboard
    ```
 
@@ -277,5 +277,6 @@ This dashboard is for educational and analytical purposes only. All statistics s
 ---
 
 **Built with ❤️ for basketball analytics enthusiasts**
+
 
 **Star ⭐ this repo if you find it useful!**
