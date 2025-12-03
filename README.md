@@ -302,8 +302,6 @@ Contributions are welcome! Here's how you can help:
 4. Push to the branch (`git push origin feature/AmazingFeature`)
 5. Open a Pull Request
 
-Please read [CONTRIBUTING.md](CONTRIBUTING.md) for details on our code of conduct and the process for submitting pull requests.
-
 ## 🐛 Known Issues
 
 - Large datasets (1000+ teams) may experience slower sorting performance
@@ -356,3 +354,4 @@ This dashboard is for educational and analytical purposes only. All statistics s
 [Back to Top](#wnba-season-tracker-dashboard)
 
 </div>
+
