@@ -1,81 +1,135 @@
 # WNBA Season Tracker Dashboard
 
-A professional analytics dashboard for tracking WNBA team performance with interactive visualizations, team comparisons, and statistical analysis.
+<div align="center">
 
-![Dashboard](https://img.shields.io/badge/Version-1.0.0-gold?style=for-the-badge)
-![License](https://img.shields.io/badge/License-MIT-blue?style=for-the-badge)
-![JavaScript](https://img.shields.io/badge/JavaScript-Vanilla-yellow?style=for-the-badge)
+![WNBA Season Tracker](preview.png)
 
-## ✨ Features
+**A professional analytics dashboard for tracking WNBA team performance with interactive visualizations and advanced statistical analysis.**
 
-- 📊 **Interactive Data Tables** - Sortable, searchable team statistics with heatmap visualizations
-- 📈 **Dynamic Charts** - Quarter-by-quarter performance and trend analysis using Chart.js
-- ⚖️ **Team Comparison** - Side-by-side analytics with radar charts and advanced metrics
-- 🎯 **Advanced Analytics** - Offensive/defensive ratings, momentum tracking, and insights
-- 📱 **Responsive Design** - Optimized for desktop, tablet, and mobile devices
-- 🎨 **Modern UI** - Dark theme with gold accents and smooth animations
-- 💾 **Data Export** - Export tables as CSV or PNG images
-- 🔍 **Real-time Search** - Instant filtering of team statistics
+[![Version](https://img.shields.io/badge/Version-1.0.0-gold?style=for-the-badge)](https://github.com/degenhoops/wnba-season-tracker)
+[![License](https://img.shields.io/badge/License-MIT-blue?style=for-the-badge)](LICENSE)
+[![JavaScript](https://img.shields.io/badge/JavaScript-Vanilla-yellow?style=for-the-badge)](https://developer.mozilla.org/en-US/docs/Web/JavaScript)
+
+[View Demo](#-demo) • [Features](#-features) • [Quick Start](#-quick-start) • [Documentation](#-usage)
+
+</div>
+
+---
+
+## 🎯 What is This?
+
+The WNBA Season Tracker Dashboard is a comprehensive web application designed for basketball enthusiasts, analysts, and coaches who want to dive deep into team performance data. Built with vanilla JavaScript and modern web technologies, it transforms raw statistical data into actionable insights through beautiful, interactive visualizations.
+
+Whether you're comparing teams, tracking season trends, or analyzing recent performance, this dashboard provides professional-grade analytics tools that are both powerful and easy to use.
+
+## ✨ Key Features
+
+### 📊 **Interactive Data Tables**
+- **Sortable columns** - Click any header to sort ascending/descending
+- **Smart search** - Real-time filtering across all team statistics
+- **Heatmap visualization** - Color-coded cells highlight top and bottom performers
+- **Responsive design** - Horizontal scrolling on mobile, full tables on desktop
+
+### 📈 **Dynamic Charts & Visualizations**
+- **Quarter-by-quarter performance** - Stacked bar charts showing scoring distribution
+- **Performance trends** - Scatter plots correlating win percentage with points scored
+- **Radar charts** - Multi-dimensional team comparisons at a glance
+- **Powered by Chart.js** - Smooth animations and interactive tooltips
+
+### ⚖️ **Advanced Team Comparison**
+- **Side-by-side analytics** - Compare any two teams across 15+ metrics
+- **Offensive/Defensive ratings** - Calculate efficiency metrics automatically
+- **Momentum tracking** - Analyze performance trends over recent games
+- **AI-powered insights** - Get strategic recommendations based on statistical advantages
+- **Strengths & weaknesses** - Automated analysis of team capabilities
+
+### 💾 **Data Export Capabilities**
+- **CSV export** - Download tables for Excel or Google Sheets
+- **PNG export** - Save visualizations as high-quality images
+- **One-click downloads** - Export current view instantly
+
+### 🎨 **Modern User Experience**
+- **Dark theme** - Easy on the eyes with gold and orange accents inspired by basketball
+- **Smooth animations** - Polished transitions and micro-interactions
+- **Mobile-first design** - Fully responsive from 320px to 4K displays
+- **Accessibility** - Keyboard navigation and screen reader support
+
+## 🎬 Demo
+
+### Main Dashboard
+The dashboard provides an at-a-glance view of all team statistics with intelligent heatmapping and instant search capabilities.
+
+### Team Comparison Tool
+Compare any two teams with detailed breakdowns including radar charts, efficiency ratings, and strategic insights.
+
+### Quarter Performance Analysis
+Visualize how teams perform across all four quarters with interactive stacked bar charts.
 
 ## 🚀 Quick Start
 
 ### Prerequisites
 
-- A modern web browser (Chrome 90+, Firefox 88+, Safari 14+, or Edge 90+)
-- A local web server (Python, Node.js, or any HTTP server)
+You only need:
+- A modern web browser (Chrome, Firefox, Safari, or Edge)
+- A local web server (Python, Node.js, PHP, or any HTTP server)
 
 ### Installation
 
-1. **Download or clone this repository**
+1. **Clone or download this repository**
    ```bash
    git clone https://github.com/degenhoops/wnba-season-tracker.git
-   cd wnba-dashboard
+   cd wnba-season-tracker
    ```
 
-2. **Ensure you have the required files**
+2. **Verify you have all required files**
    ```
-   dashboard/
-   ├── index.html
-   ├── app.js
-   ├── style.css
-   ├── fullseason.json
-   ├── lastfive.json
-   ├── teams.json
-   └── logo.png (optional)
+   wnba-season-tracker/
+   ├── index.html          # Main dashboard page
+   ├── app.js             # Core application logic
+   ├── style.css          # Styles and themes
+   ├── fullseason.json    # Full season statistics
+   ├── lastfive.json      # Recent games statistics
+   ├── teams.json         # Advanced analytics (optional)
+   ├── logo.png           # Your team/brand logo (optional)
+   └── preview.png        # Dashboard preview image
    ```
 
-3. **Start a local server**
+3. **Start a local web server**
 
-   **Option A - Python 3:**
+   Choose the method that works for your environment:
+
+   **Python 3 (Recommended):**
    ```bash
    python -m http.server 8000
    ```
 
-   **Option B - Node.js:**
+   **Node.js:**
    ```bash
    npx http-server -p 8000
    ```
 
-   **Option C - PHP:**
+   **PHP:**
    ```bash
    php -S localhost:8000
    ```
 
 4. **Open your browser**
-   ```
-   http://localhost:8000
-   ```
+   
+   Navigate to: `http://localhost:8000`
 
-## 📊 Data Format
+That's it! The dashboard should load with your data.
 
-Your JSON files should follow these formats:
+## 📊 Data Format Guide
 
-### fullseason.json & lastfive.json
+### Full Season & Last 5 Games Data
+
+Your `fullseason.json` and `lastfive.json` should follow this structure:
+
 ```json
 [
   {
     "RANK": 1,
-    "TEAM NAME": "Team Name",
+    "TEAM NAME": "New York Liberty",
     "GAMES": 40,
     "WINS": 34,
     "LOSSES": 6,
@@ -97,11 +151,14 @@ Your JSON files should follow these formats:
 ]
 ```
 
-### teams.json (Optional - for advanced analytics)
+### Advanced Analytics (Optional)
+
+For enhanced comparison features, add a `teams.json` file:
+
 ```json
 [
   {
-    "name": "Team Name",
+    "name": "New York Liberty",
     "stats": {
       "off_rtg": 112.5,
       "def_rtg": 98.2,
@@ -113,8 +170,8 @@ Your JSON files should follow these formats:
       "opp_pts": 85.4
     },
     "notes": {
-      "strengths": "Elite offensive efficiency. Strong defense.",
-      "weaknesses": "Inconsistent three-point shooting."
+      "strengths": "Elite offensive efficiency with strong ball movement. Dominant defensive presence.",
+      "weaknesses": "Inconsistent three-point shooting in clutch situations."
     }
   }
 ]
@@ -122,151 +179,180 @@ Your JSON files should follow these formats:
 
 ## 🎮 Usage
 
-### Main Dashboard
-- **Sort Data**: Click any column header to sort
-- **Search Teams**: Use the search bar to filter teams
-- **Switch Datasets**: Toggle between full season and last 5 games data
-- **Export Data**: Click "Export CSV" or "Export PNG" buttons
+### Viewing and Sorting Data
 
-### Team Comparison
-1. Select two teams from the dropdowns
-2. Click "Compare Teams"
-3. View detailed analytics including:
-   - Overall ratings
-   - Radar chart comparison
-   - Statistical advantages
-   - Strengths and weaknesses
-   - Momentum analysis
-   - Strategic insights
+1. **Switch between datasets** using the toggle buttons at the top
+   - "Full Season" - Complete season statistics
+   - "Last 5 Games" - Recent performance trends
 
-### Charts
-- **Quarter Performance**: Stacked bar chart showing scoring by quarter
-- **Performance Trends**: Scatter plot of win percentage vs points
-- Switch between chart types using the buttons above the chart
+2. **Sort any column** by clicking the column header
+   - First click: ascending order
+   - Second click: descending order
+   - Visual arrow indicators show current sort
+
+3. **Search for teams** using the search bar
+   - Filters in real-time as you type
+   - Searches across all columns
+
+### Comparing Teams
+
+1. Navigate to the **Team Comparison** section
+2. Select your first team from the dropdown
+3. Select a second team to compare against
+4. Click **"Compare Teams"**
+
+You'll see:
+- Overall efficiency ratings (offensive, defensive, net)
+- Visual radar chart comparison
+- Statistical advantages highlighted
+- Strengths and weaknesses analysis
+- Momentum trends
+- Strategic insights and recommendations
+
+### Viewing Charts
+
+- **Toggle chart types** using the buttons above the visualization
+  - Quarter Performance: See scoring distribution by quarter
+  - Performance Trends: Analyze win percentage vs total points
+
+### Exporting Data
+
+- **Export as CSV**: Click to download table data for spreadsheet analysis
+- **Export as PNG**: Click to save the current view as an image
 
 ## ⚙️ Configuration
 
-You can customize the dashboard by editing the `CONFIG` object in `app.js`:
+Customize the dashboard by editing `CONFIG` in `app.js`:
 
 ```javascript
 const CONFIG = {
   DATA_SOURCES: {
-    FULL_SEASON: 'fullseason.json',    // Your full season data file
-    LAST_FIVE: 'lastfive.json',        // Your recent games data file
-    TEAMS: 'teams.json',               // Advanced analytics (optional)
+    FULL_SEASON: 'fullseason.json',    
+    LAST_FIVE: 'lastfive.json',        
+    TEAMS: 'teams.json',               
   },
   
   CACHE: {
-    TTL: 5 * 60 * 1000,  // Cache duration (5 minutes)
-    MAX_SIZE: 50         // Max cached items
+    TTL: 5 * 60 * 1000,  // 5 minutes
+    MAX_SIZE: 50         
   },
   
   UI: {
-    DEBOUNCE_DELAY: 250,        // Search input delay (ms)
-    ANIMATION_DURATION: 500,     // Chart animation speed (ms)
-    NOTIFICATION_DURATION: 3000  // Toast message duration (ms)
-  },
-  
-  CHART: {
-    MOBILE_BREAKPOINT: 768,   // Mobile screen width (px)
-    TABLET_BREAKPOINT: 1024,  // Tablet screen width (px)
+    DEBOUNCE_DELAY: 250,        
+    ANIMATION_DURATION: 500,     
+    NOTIFICATION_DURATION: 3000  
   }
 };
 ```
 
-### Customizing Colors
+### Customizing the Theme
 
 Edit CSS variables in `style.css`:
 
 ```css
 :root {
-  --primary-gold: #FFD700;      /* Primary accent color */
-  --secondary-gold: #FFA500;    /* Secondary accent color */
-  --accent-orange: #FF6B35;     /* Tertiary accent color */
-  --bg-primary: #0a0a0a;        /* Main background */
-  --bg-secondary: #1a1a1a;      /* Card backgrounds */
+  --primary-gold: #FFD700;      
+  --secondary-gold: #FFA500;    
+  --accent-orange: #FF6B35;     
+  --bg-primary: #0a0a0a;        
+  --bg-secondary: #1a1a1a;      
 }
 ```
 
-## 🏗️ Project Structure
+## 🛠️ Built With
 
-```
-wnba-dashboard/
-├── index.html          # Main HTML structure
-├── app.js             # Core JavaScript logic
-├── style.css          # Styles and responsive design
-├── fullseason.json    # Full season statistics
-├── lastfive.json      # Recent games statistics
-├── teams.json         # Advanced team analytics (optional)
-├── logo.png           # Your logo (optional)
-├── README.md          # This file
-├── LICENSE            # MIT License
-├── CONTRIBUTING.md    # Contribution guidelines
-└── .gitignore        # Git ignore rules
-```
-
-## 🛠️ Technologies Used
-
-- **Vanilla JavaScript** - No frameworks, pure ES6+
-- **Chart.js** - Interactive and responsive charts
-- **html2canvas** - Screenshot/export functionality
-- **CSS3** - Modern styling with Grid and Flexbox
-- **Font Awesome 6** - Icon library
-- **Google Fonts** - Rajdhani and Inter fonts
+- **Vanilla JavaScript (ES6+)** - No frameworks, pure performance
+- **Chart.js 4.4** - Beautiful, responsive charts
+- **html2canvas** - Client-side screenshot generation
+- **CSS3 Grid & Flexbox** - Modern, responsive layouts
+- **Font Awesome 6** - Professional icon library
+- **Google Fonts** - Rajdhani and Inter typefaces
 
 ## 🌐 Browser Support
 
-| Browser | Version |
-|---------|---------|
-| Chrome  | 90+     |
-| Firefox | 88+     |
-| Safari  | 14+     |
-| Edge    | 90+     |
+| Browser | Minimum Version |
+|---------|-----------------|
+| Chrome  | 90+            |
+| Firefox | 88+            |
+| Safari  | 14+            |
+| Edge    | 90+            |
 
-## 📱 Mobile Support
+## 📱 Responsive Design
 
-The dashboard is fully responsive and optimized for:
-- Desktop (1920x1080+)
-- Laptop (1366x768+)
-- Tablet (768x1024)
-- Mobile (320x568+)
+Fully optimized for all screen sizes:
 
-Special features for mobile:
-- Splash screen animation
-- Touch-optimized controls
-- Horizontal table scrolling
-- Collapsible sections
+- **Desktop** (1920x1080+) - Full dashboard with side-by-side comparisons
+- **Laptop** (1366x768+) - Optimized layouts for standard laptops
+- **Tablet** (768x1024) - Touch-friendly controls and layouts
+- **Mobile** (320x568+) - Vertical scrolling with collapsible sections
 
-## 📝 License
+Mobile-specific features:
+- Splash screen loading animation
+- Touch-optimized table scrolling
+- Responsive chart sizing
+- Collapsible comparison sections
 
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+## 🤝 Contributing
+
+Contributions are welcome! Here's how you can help:
+
+1. Fork the repository
+2. Create a feature branch (`git checkout -b feature/AmazingFeature`)
+3. Commit your changes (`git commit -m 'Add some AmazingFeature'`)
+4. Push to the branch (`git push origin feature/AmazingFeature`)
+5. Open a Pull Request
+
+Please read [CONTRIBUTING.md](CONTRIBUTING.md) for details on our code of conduct and the process for submitting pull requests.
 
 ## 🐛 Known Issues
 
-- Large datasets (1000+ rows) may experience slower sorting
-- Safari on iOS may have minor CSS differences
-- PDF export requires the html2canvas library to be loaded via CDN
+- Large datasets (1000+ teams) may experience slower sorting performance
+- Safari on iOS may have minor CSS rendering differences
+- Image exports require stable internet for html2canvas CDN
 
+See the [issue tracker](https://github.com/degenhoops/wnba-season-tracker/issues) for a full list of known issues and feature requests.
 
-## 📧 Support
-- 📧 Email: degenhoops@gmail.com
+## 🗺️ Roadmap
+
+- [ ] Player-level statistics tracking
+- [ ] Historical season comparisons
+- [ ] Custom metric calculations
+- [ ] Real-time data updates via API
+- [ ] Dark/light theme toggle
+- [ ] Advanced filtering options
+- [ ] PDF export functionality
+- [ ] Multiple language support
+
+## 📄 License
+
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
 ## 🙏 Acknowledgments
 
-- **Chart.js** - For the excellent charting library
-- **Font Awesome** - For the comprehensive icon set
-- **html2canvas** - For making image exports possible
-- **WNBA** - For inspiring this project
-- All contributors who help improve this project
+- **Chart.js Team** - For the outstanding charting library
+- **Font Awesome** - For comprehensive icon sets
+- **html2canvas** - For making exports possible
+- **WNBA** - For inspiring this analytics project
+- **Basketball analytics community** - For methodology and best practices
+
+## 📧 Contact & Support
+
+- **Email**: degenhoops@gmail.com
+- **GitHub Issues**: [Report a bug or request a feature](https://github.com/degenhoops/wnba-season-tracker/issues)
+- **Discussions**: [Join the conversation](https://github.com/degenhoops/wnba-season-tracker/discussions)
 
 ## ⚠️ Disclaimer
 
-This dashboard is for educational and analytical purposes only. All statistics should be verified with official WNBA sources. This is not an official WNBA product.
+This dashboard is for educational and analytical purposes only. All statistics should be verified with official WNBA sources. This is not an official WNBA product and is not affiliated with or endorsed by the WNBA.
 
 ---
 
+<div align="center">
+
 **Built with ❤️ for basketball analytics enthusiasts**
 
+⭐ **Star this repo if you find it useful!** ⭐
 
-**Star ⭐ this repo if you find it useful!**
+[Back to Top](#wnba-season-tracker-dashboard)
 
+</div>
