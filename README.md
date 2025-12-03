@@ -308,7 +308,6 @@ Contributions are welcome! Here's how you can help:
 - Safari on iOS may have minor CSS rendering differences
 - Image exports require stable internet for html2canvas CDN
 
-See the [issue tracker](https://github.com/degenhoops/wnba-season-tracker/issues) for a full list of known issues and feature requests.
 
 ## 🗺️ Roadmap
 
@@ -337,7 +336,6 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 - **Email**: degenhoops@gmail.com
 - **GitHub Issues**: [Report a bug or request a feature](https://github.com/degenhoops/wnba-season-tracker/issues)
-- **Discussions**: [Join the conversation](https://github.com/degenhoops/wnba-season-tracker/discussions)
 
 ## ⚠️ Disclaimer
 
@@ -354,4 +352,5 @@ This dashboard is for educational and analytical purposes only. All statistics s
 [Back to Top](#wnba-season-tracker-dashboard)
 
 </div>
+
 
